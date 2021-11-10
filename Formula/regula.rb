@@ -8,7 +8,7 @@ class Regula < Formula
   version "1.6.0"
   bottle :unneeded
 
-  if OS.mac? && Hardware::CPU.intel?
+  if OS.mac?
     url "https://github.com/fugue/regula/releases/download/v1.6.0/regula_1.6.0_macOS_x86_64.tar.gz"
     sha256 "f296537b0be653fd4d2437d68b7ce37e9c911b6b241fde0707acc503d731afb6"
   end
